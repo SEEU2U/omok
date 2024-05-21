@@ -540,7 +540,7 @@ def possible_check(x,y,player):
 
         if (y > 1 and y < 4) and (x > 1 and x < 4):
 
-            if there_is[x -2][y -2] == 1and there_is[x - 1][y - 1] == 1 and there_is[x + 1][y + 1] == 1 and there_is[x + 2][y + 2] == 1 and \
+            if there_is[x -2][y -2] == 1 and there_is[x - 1][y - 1] == 1 and there_is[x + 1][y + 1] == 1 and there_is[x + 2][y + 2] == 1 and \
                     there_is[x + 3][y + 3] == 1 and there_is[x + 4][y + 4] == 1 :
                 check = False
 
